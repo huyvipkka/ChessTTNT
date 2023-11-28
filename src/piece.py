@@ -10,6 +10,9 @@ class PieceBase:
         self.y = y
         self.color = color
         self.value = value
+    
+    def getPosition(self):
+        return self.x, self.y    
         
     def update(self, event):
         ...
